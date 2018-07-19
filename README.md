@@ -3,7 +3,7 @@ A simple node js server.
 
 ## Start up
 
-On the command line type:
+On the command line, go to the folder where server.js is and type:
 ```
 node server.js
 ```
