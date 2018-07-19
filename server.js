@@ -25,7 +25,8 @@ function handleIncomingRequest(request, response) {
     var coreUrl = request.parsedUrl.pathname.toLowerCase();
     console.log("Core URL: "+coreUrl);
 
-    if(coreUrl == "/index.html") {
+    // You can use any URL you want and serve up what you want.
+    if(coreUrl == "/index.html" || coreUrl == '/') {
         handleIndex(request, response);
     } else if(coreUrl == "/pages") {
         handlePages(request, response);
